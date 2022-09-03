@@ -30,11 +30,32 @@
         </div>
     </header>
 
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target=
+        #nucampNavbar><span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nucampNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Site</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <div class="container">
         <div class="row">
             <div class="col">
-               <h2>About Us</h2>
-               <hr />
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">About Us</li>
+                </ol>
+                
+                <h2>About Us</h2>
+                <hr />
             </div>
         </div>
 
@@ -49,13 +70,13 @@
             <div class= "col">
                 <h3>Community Partners</h3>
                 <h4>Great Grocers <small>Food Supply Specialists</small></h4>
-                <p>Great Grocers supplies you with all the groceries you need at unbeatable prices!</p>
+                <p class= "d-none d-sm-block" >Great Grocers supplies you with all the groceries you need at unbeatable prices!</p>
                 <h4>Gary's Grill Emporium <small>Outdoor Grill Experts</small></h4>
-                <p>Visit Gary's Grill Emporium to prepare for your next cookout!</p>
+                <p class= "d-none d-sm-block" >Visit Gary's Grill Emporium to prepare for your next cookout!</p>
                 <h4>Patty's Pastries <small>Your Neighborhood Bakeshop</small></h4>
-                <p>Need a pie, a birthday cake, or other baked goods? Stop by Patty's Pastries.</p>
+                <p class= "d-none d-sm-block" >Need a pie, a birthday cake, or other baked goods? Stop by Patty's Pastries.</p>
                 <h4>Scott's Scotch <small>Artisanal Whiskey</small></h4>
-                <p>Go to Scott's Scotch for some whiskey samples today!</p>
+                <p class= "d-none d-sm-block" >Go to Scott's Scotch for some whiskey samples today!</p>
             </div>
         </div>
     </div>
@@ -67,7 +88,7 @@
                     <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="aboutus.html">About</a></li>
                         <li><a href="#">Sites</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
