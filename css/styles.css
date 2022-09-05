@@ -14,7 +14,7 @@ header h2 {
     color: #389194;
 }
 
-footer {
+.site-footer{
     background-image: linear-gradient(#CEC8FF, white);
     padding: 20px 0;
 }
@@ -34,6 +34,6 @@ footer {
 
 
 .navbar {
-    background-color: #901CAD;
+    background-color: #211cad;
 }
 
